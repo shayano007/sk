@@ -212,7 +212,7 @@ def aprv():
                 print(logo)
                 print('\033[1;32m  Your Key Is Not Approved')
                 print('\033[1;37m----------------------------------------------')               
-                print(f" Your Key: {k}")
+                print(f" Your Key: {SK}")
                 print('\033[1;37m----------------------------------------------')                
                 input('\033[1;37m[Press Enter]')
                 os.system("xdg-open https://wa.me/+923159620940?text={k}")
